@@ -1150,9 +1150,9 @@ display: inline-block;
 }
 
 .footer-logo {
-height: 60px;
-width: auto;
-transition: var(--transition);
+    height: 60px;
+    width: auto;
+    object-fit: contain;
 }
 
 .footer-logo:hover {
