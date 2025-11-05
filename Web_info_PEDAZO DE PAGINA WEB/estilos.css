@@ -142,6 +142,7 @@ top: 0;
 width: 100%;
 z-index: 999;
 backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px); /* añadido para compatibilidad */
 box-shadow: var(--shadow);
 transition: var(--transition);
 }
@@ -1150,9 +1151,9 @@ display: inline-block;
 }
 
 .footer-logo {
-    height: 60px;
-    width: auto;
-    object-fit: contain;
+height: 60px;
+width: auto;
+transition: var(--transition);
 }
 
 .footer-logo:hover {
